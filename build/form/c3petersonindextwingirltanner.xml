@@ -23,8 +23,10 @@
 	</componentset>
 	
 	<componentset name="MU twin" abrv="mut" numcols="2" displayheader="true" header="MU twin">
-		<datafield name="Breast Development" entryset="MU twin" filename="build\dataset\mutwin.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1369927061014" options="" />
+		
 		<datafield name="Female Pubic Hair Growth" entryset="MU twin" filename="build\dataset\mutwin.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1369927061013" options="" />
+
+		<datafield name="Breast Development" entryset="MU twin" filename="build\dataset\mutwin.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1369927061014" options="" />
 	</componentset>
 </form>
 
