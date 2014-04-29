@@ -221,3 +221,5 @@ userlog/
 jforms.jar
 jdom.jar
 log_reader.jar
+*.sublime-project
+*.sublime-workspace
