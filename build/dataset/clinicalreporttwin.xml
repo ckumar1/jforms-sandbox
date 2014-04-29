@@ -28,14 +28,14 @@
 	<key name="Twin" field="twin" template="na" validator="INTEGER" ui="com.wtp.jforms.ui.control.selection.RadioSelector" value="" />
 	<key name="Data Mode" field="datamode" template="na" validator="VARCHAR" ui="com.wtp.jforms.ui.control.selection.RadioSelector" value="" />
 
-	<data name="Social Phobia" field="so" template="drdx" validator="val02_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="100000" />
-	<data name="Social Phobia" field="so" template="drsx" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="100001" />
-	<data name="Social Phobia" field="so" template="drim" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="100002" />
+	<data name="Social Phobia" field="so" template="drdx" validator="val02_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="2356883000" />
+	<data name="Social Phobia" field="so" template="drsx" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="2356883001" />
+	<data name="Social Phobia" field="so" template="drim" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="2356883002" />
 
 
-	<data name="Specific Phobia" field="sp" template="drdx" validator="val02_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="100003" />
-	<data name="Specific Phobia" field="sp" template="drsx" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="100004" />
-	<data name="Specific Phobia" field="sp" template="drim" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="100005" />
+	<data name="Specific Phobia" field="sp" template="drdx" validator="val02_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="2356883003" />
+	<data name="Specific Phobia" field="sp" template="drsx" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="2356883004" />
+	<data name="Specific Phobia" field="sp" template="drim" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="2356883005" />
 
 
 
