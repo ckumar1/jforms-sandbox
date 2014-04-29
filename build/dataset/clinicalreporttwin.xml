@@ -2,19 +2,19 @@
 <!DOCTYPE dataset SYSTEM "../../dtd/dataset.dtd">
 <dataset name="Clinical Report Twin" abrv="crtw" filename="clinicalreporttwin">
 	<template name="drdx">
-		<name format="" />
+		<name format="@ Diagnosis" />
 		<field format="dr@dxy" />
 		<subsetname format="" />
 		<subsetfield format="" />
 	</template>
 	<template name="drsx">
-		<name format="" />
+		<name format="@: # Symptoms" />
 		<field format="dr@sxy" />
 		<subsetname format="" />
 		<subsetfield format="" />
 	</template>
 	<template name="drim">
-		<name format="" />
+		<name format="@ Impairment" />
 		<field format="dr@imy" />
 		<subsetname format="" />
 		<subsetfield format="" />
