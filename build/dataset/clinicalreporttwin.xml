@@ -27,40 +27,17 @@
 	<key name="Family Id" field="familyid" template="na" validator="VARCHAR" ui="com.wtp.jforms.ui.control.selection.FamilyId" value="" />
 	<key name="Twin" field="twin" template="na" validator="INTEGER" ui="com.wtp.jforms.ui.control.selection.RadioSelector" value="" />
 	<key name="Data Mode" field="datamode" template="na" validator="VARCHAR" ui="com.wtp.jforms.ui.control.selection.RadioSelector" value="" />
-	
-	<data name="Growth in height" field="001" template="drgen" validator="val14_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1206548002448" />
-	<data name="Growth of body hair" field="002" template="drgen" validator="val14_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1206548002449" />
-	<data name="Skin changes" field="003" template="drgen" validator="val14_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1206548002450" />
-	<data name="Deepening of voice" field="04b" template="drgen" validator="val14_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1206548002451" />
-	<data name="Breast growth" field="04g" template="drgen" validator="val14_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1206548002452" />
-	<data name="Growth of facial hair" field="05b" template="drgen" validator="val14_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1206548002453" />
-	<data name="Begun to menstruate" field="05g" template="drgen" validator="yesno01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1206548002454" />
-	<data name="Month of first menstruation" field="5amg" template="drgen" validator="112_9998_9999" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1206551221835" />
-	<data name="Year of first menstruation" field="5ayg" template="drgen" validator="blankformat" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.FormatTextFieldBox" classid="1206551221836" />
-	<data name="Days of cycle" field="5bg" template="drgen" validator="DOUBLE" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1206551221837" />
-	<data name="Regularity of cycle" field="5cg" template="drgen" validator="val14_9998_9999" dependencies="true" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1206551221838" />
-	<data name="Height (inches)" field="006" template="drgen" validator="DOUBLE" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1206551221839" />
-	<data name="Weight (pounds)" field="007" template="drgen" validator="DOUBLE" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1206551221840" />
-	<data name="Rating of weight" field="008" template="drgen" validator="val17_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1206551221841" />
-	<dependency field="Month of first menstruation">
-		<parent field="Begun to menstruate" lowerbound="2147483647" upperbound="2147483647">
-			<enable value="1" />
-		</parent>
-	</dependency>
-	<dependency field="Year of first menstruation">
-		<parent field="Begun to menstruate" lowerbound="2147483647" upperbound="2147483647">
-			<enable value="1" />
-		</parent>
-	</dependency>
-	<dependency field="Days of cycle">
-		<parent field="Begun to menstruate" lowerbound="2147483647" upperbound="2147483647">
-			<enable value="1" />
-		</parent>
-	</dependency>
-	<dependency field="Regularity of cycle">
-		<parent field="Begun to menstruate" lowerbound="2147483647" upperbound="2147483647">
-			<enable value="1" />
-		</parent>
-	</dependency>
+
+	<data name="Social Phobia" field="so" template="drdx" validator="val02_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1" />
+	<data name="Social Phobia" field="so" template="drsx" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="2" />
+	<data name="Social Phobia" field="so" template="drim" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="3" />
+
+
+	<data name="Specific Phobia" field="sp" template="drdx" validator="val02_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="5" />
+	<data name="Specific Phobia" field="sp" template="drsx" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="6" />
+	<data name="Specific Phobia" field="sp" template="drim" validator="INTEGER" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="7" />
+
+
+
 </dataset>
 
