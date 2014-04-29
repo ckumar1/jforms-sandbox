@@ -10,16 +10,9 @@
 	<key name="Data Mode" entryset="CR Twin" filename="clinicalreporttwin" class="com.wtp.jforms.ui.control.selection.RadioSelector" options="Data Mode,Entry:Entry,Check:Check" />
 
 	<componentset name="Diagnosis Category" abrv="DC" numcols="2" displayheader="true" header="Diagnosis Category">
-		<datafield name="Social Phobia" entryset="CR Twin" filename="build\dataset\clinicalreporttwin.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1" options="" />
-		<datafield name="Social Phobia" entryset="CR Twin" filename="build\dataset\clinicalreporttwin.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="2" options="" />
-		<datafield name="Social Phobia" entryset="CR Twin" filename="build\dataset\clinicalreporttwin.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="3" options="" />
-	</componentset>
-
-	<componentset name="# of Symptoms" abrv="numSym" numcols="2" displayheader="true" header="# of Symptoms">
-	</componentset>
-
-	<componentset name="Impairment Integer" abrv="II" numcols="2" displayheader="true" header="Impairment Integer">
-
+		<datafield name="Social Phobia" entryset="CR Twin" filename="build\dataset\clinicalreporttwin.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="2356883000" options="" />
+		<datafield name="Social Phobia" entryset="CR Twin" filename="build\dataset\clinicalreporttwin.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="2356883001" options="" />
+		<datafield name="Social Phobia" entryset="CR Twin" filename="build\dataset\clinicalreporttwin.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="2356883002" options="" />
 	</componentset>
 
 </form>
