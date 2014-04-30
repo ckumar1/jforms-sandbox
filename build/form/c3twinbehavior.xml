@@ -19,7 +19,7 @@
 
 
 
-	
+
 	<key name="Family Id" entryset="BIS" filename="bistwinnew" class="com.wtp.jforms.ui.control.selection.FamilyId" options="Microsoft Access 2000:\\wcs\wtp_common\data\database\wtp_data.mdb,gen_family,familyid" />
 	<key name="Twin" entryset="BIS" filename="bistwinnew" class="com.wtp.jforms.ui.control.selection.RadioSelector" options="twin,A:1,B:2" />
 	<key name="Data Mode" entryset="BIS" filename="bistwinnew" class="com.wtp.jforms.ui.control.selection.RadioSelector" options="datamode,Entry:Entry,Check:Check" />
@@ -208,7 +208,6 @@
 		<datafield name="84" entryset="HBQ" filename="build\dataset\hbqnew.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216763445172" options="" />
 	</componentset>
 	<componentset name="HBQ School and Peer" abrv="hbq1" numcols="2" displayheader="true" header="HBQ School and Peer">
-		<datafield name="A" entryset="HBQ1 A" filename="build\dataset\hbq1a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216756931507" options="" />
 		<datafield name="1" entryset="HBQ1 A" filename="build\dataset\hbq1a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216756931508" options="" />
 		<datafield name="2" entryset="HBQ1 A" filename="build\dataset\hbq1a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216756931509" options="" />
 		<datafield name="3" entryset="HBQ1 A" filename="build\dataset\hbq1a.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216756931510" options="" />
@@ -286,7 +285,6 @@
 	</componentset>
 	
 	<componentset name="HBQ School and Peer Cotwin" abrv="hbq1cotwin" numcols="2" displayheader="true" header="HBQ1 School and Peer Cotwin">
-		<datafield name="A" entryset="HBQ1 Cotwin A" filename="build\dataset\hbq1cotwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216766931507" options="" />
 		<datafield name="1" entryset="HBQ1 Cotwin A" filename="build\dataset\hbq1cotwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216766931508" options="" />
 		<datafield name="2" entryset="HBQ1 Cotwin A" filename="build\dataset\hbq1cotwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216766931509" options="" />
 		<datafield name="3" entryset="HBQ1 Cotwin A" filename="build\dataset\hbq1cotwina.xml" type="0" class="com.wtp.jforms.ui.control.smart.TextFieldBox" editable="true" classid="1216766931510" options="" />
