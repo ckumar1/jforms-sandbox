@@ -44,7 +44,7 @@
 	<data name="28.Play Dough" field="ta28" template="temp" validator="val01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1369927060120" />
 	<data name="29.Foods" field="ta29" template="temp" validator="val01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1369927060121" />
 	<data name="30.Lotion" field="ta30" template="temp" validator="val01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1369927060122" />
-	<data name="31.Other ways you are touch sensitive?" field="ta31" template="temp" validator="VARCHAR" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1369927060123" />
+	<data name="31.Other ways you are touch sensitive?" field="ta31" template="temp" validator="VARCHAR" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1369927060123" />
 	<data name="1.Toilet flushing" field="au01" template="temp" validator="val01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1369927060124" />
 	<data name="2.Door bell" field="au02" template="temp" validator="val01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1369927060125" />
 	<data name="3.Dog barking" field="au03" template="temp" validator="val01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1369927060126" />
@@ -67,6 +67,6 @@
 	<data name="20.Malls" field="au20" template="temp" validator="val01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1369927060141" />
 	<data name="21.Cafeterias" field="au21" template="temp" validator="val01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1369927060142" />
 	<data name="22.Gymnasium" field="au22" template="temp" validator="val01_9998_9999" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1369927060143" />
-	<data name="23.Other ways you are sensitive to sound?" field="au23" template="temp" validator="VARCHAR" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.TextFieldBox" classid="1369927060144" />
+	<data name="23.Other ways you are sensitive to sound?" field="au23" template="temp" validator="VARCHAR" dependencies="false" editable="true" ui="com.wtp.jforms.ui.control.smart.MemoFieldBox" classid="1369927060144" />
 </dataset>
 
